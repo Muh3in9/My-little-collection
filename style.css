@@ -1,0 +1,67 @@
+body {
+    font-family: 'Segoe Print', cursive, sans-serif;
+    margin: 20px;
+    background-color: #fff5e1; /* Light Yellow - very light */
+    text-align: center;
+}
+
+h1 {
+    color: #ffb300; /* Amber - soft yellow */
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    text-shadow: 1px 1px #ffca28;
+}
+
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    background-color: #fffde7; /* Light Yellow - very very light */
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.05);
+    overflow: hidden;
+    text-align: center;
+    border: 1px solid #ffe082; /* Light Yellow border */
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.card h3 {
+    color: #f4511e; /* Deep Orange - gentle version */
+    margin-top: 15px;
+    margin-bottom: 5px;
+    padding: 0 20px;
+    font-size: 1.4em;
+}
+
+.card p {
+    color: #757575; /* Gray - soft */
+    margin-bottom: 15px;
+    padding: 0 20px;
+    font-size: 0.95em;
+}
+
+.card button {
+    background-color: #ffb74d; /* Orange - soft */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 1em;
+    margin-bottom: 20px;
+}
+
+.card button:hover {
+    background-color: #f57c00; /* Darker Orange */
+}
